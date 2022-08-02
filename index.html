@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gym website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<style>
+    body{
+        background:url("https://image.cnbcfm.com/api/v1/image/105999935-1562097549646sport-stretching-leisure-hobby-woman-strong-exercise-workout-gym-weightlifting_t20_v7r7a7.jpg?v=1594825333&w=1920&h=1080");
+        font-family: 'Grape Nuts', cursive;
+
+    }
+    .left{
+       /* border:2px solid green; */
+       position:absolute;
+       color:brown;
+       top:30px;
+       left:15px;
+
+    }
+    .left img{
+        top:30px;
+        left:20px;
+        width:30%
+    }
+    .left h2{
+        line-height:4px;
+    }
+    .mid{
+        /* border:2px solid green; */
+        color:rgb(240, 54, 184);
+        width:30%;
+        margin:30px auto;
+        }
+        .mid li{
+            display:inline-block;
+        }
+        .mid li a{
+            display:inline-block;
+            text-decoration:none;
+            margin:0px 10px;
+            font-size:16px; 
+        }
+        .mid li a:hover{
+            color:red;
+
+        }
+    .rigth{
+        /* border:2px solid green; */
+        position:absolute;
+        color:rgb(52, 165, 42);
+        display:inline-block;
+        top:30px;
+       left:1250px;
+       right:10px;
+       width:20%;
+
+
+    }
+    .btn{
+        border-radius:12px;
+        cursor:pointer;
+        
+    }
+    .form{
+        /* border:2px solid green; */
+        left:20px;
+        display:inline-block;
+        width:40%;
+        margin: 30px;
+        padding:20px 20px;
+        
+
+
+    }
+    .form-group{
+        display:block;
+        text-align:center;
+
+        margin:auto;
+    }
+    h1{
+        text-align:center;
+        color:white;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZK40jdv6aQcqsVcIclhfogJKDj1tXgSt0Rw&usqp=CAU" alt="" >
+           <h2>gym center</h2>
+        </div>
+        <div class="mid">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="rigth">
+           <button class="btn">call us</button>
+           <button class="btn">email us</button>
+        </div>
+
+    </header>
+    <div class="form">
+        <h1>join the gym soon</h1>
+        <form action="noaction.php">
+            <div class="form-group"> 
+                <input type="text" name="" placeholder="enter your name">
+            </div>
+            <div class="form-group"> 
+                <input type="text" name="" placeholder="enter your age">
+            </div>
+            <div class="form-group"> 
+                <input type="text" name="" placeholder="enter your locality">
+            </div>
+            <div class="form-group"> 
+                <input type="text" name="" placeholder="enter your gender">
+            </div>
+            
+
+            
+
+           
+        </form>
+    </div>
+    
+</body>
+</html>
